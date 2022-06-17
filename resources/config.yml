@@ -1,0 +1,31 @@
+---
+# true : Prevent players from losing experience on death
+# false : Players from losing experience on death
+keepExp: true
+
+# droppedExp : Exp dropped due to this player's death
+# realExp : Exp player (no exp reduction)
+typeExp: droppedExp
+
+# all : Prevent players from losing experience on death in all worlds
+# whitelist : Prevent players from losing experience on death in worlds listed below
+# blacklist : Prevent players from losing experience on death in all worlds that are not listed below
+mode: all
+worlds: []
+# Worlds: ["world1", "world2"]
+
+# Message sent to players after respawn
+msgAfterRespawn: "You died, but your experience is safe!"
+
+# Title of toast
+toastTitle: "KeepExp"
+
+# none : No messages have been sent to the player
+# message : Send a direct chat message to a player
+# title : Send a title text to the user's screen
+# popup : Send a popup message to the player
+# tip : Send a tip message to the player
+# actionbar : Send a small text to the user's screen
+# toast : Send a little box at the top to the user's screen
+msgType: none
+...
