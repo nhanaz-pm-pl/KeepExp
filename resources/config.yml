@@ -5,7 +5,7 @@ keepExp: true
 
 # droppedExp : Exp dropped due to this player's death
 # realExp : Exp player (no exp reduction)
-typeExp: droppedExp
+typeExp: realExp
 
 # all : Prevent players from losing experience on death in all worlds
 # whitelist : Prevent players from losing experience on death in worlds listed below

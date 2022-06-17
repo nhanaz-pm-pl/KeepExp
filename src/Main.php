@@ -50,7 +50,7 @@ class Main extends PluginBase implements Listener {
 	private function keepExp($event): void {
 		$player = $event->getPlayer();
 		if ($this->config->get("keepExp", true)) {
-			match ($this->config->get("typeExp", "droppedExp")) {
+			match ($this->config->get("typeExp", "realExp")) {
 				"droppedExp" => $this->playerExp[$player->getName()] = $event->getXpDropAmount(),
 				"realExp" => $this->playerExp[$player->getName()] = $player->getXpManager()->getCurrentTotalXp(),
 				default => "None"
