@@ -1,8 +1,8 @@
 ---
 name: KeepExp
-version: 0.0.1
+version: 0.0.2+dev
 main: NhanAZ\KeepExp\Main
-api: 4.5.0
+api: 5.0.0
 src-namespace-prefix: NhanAZ\KeepExp
 website: https://github.com/NhanAZ
 author: NhanAZ
